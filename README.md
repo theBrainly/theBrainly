@@ -71,16 +71,26 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=theBrainly&show_icons=true&theme=tokyonight" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=theBrainly&show_icons=true&theme=tokyonight"
+    alt="Akash Sharma GitHub stats"
+  />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=theBrainly&theme=tokyonight" />
+  <img
+    src="https://streak-stats.demolab.com?user=theBrainly&theme=tokyonight"
+    alt="Akash Sharma GitHub contribution streak"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=theBrainly&layout=compact&theme=tokyonight" />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=theBrainly&layout=compact&theme=tokyonight"
+    alt="Akash Sharma top languages"
+  />
 </p>
+
 
 ---
 
@@ -92,15 +102,6 @@
 - Distributed System Thinking  
 - Database Optimization  
 - Production-ready Architecture  
-
----
-
-## 🐍 Contribution Snake (Auto-generated)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/theBrainly/theBrainly/output/github-contribution-grid-snake.svg" />
-</p>
-
 
 ---
 
