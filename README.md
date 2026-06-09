@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Akash Sharma</h1>
-<h3 align="center">Backend Engineer | Node.js | System Design | Building Scalable Products</h3>
+<h3 align="center">AI Data Curator · Foundation Models | Dataset Curation & AI Data Operations</h3>
 
 <p align="center">
-  I build backend-heavy applications focused on scalability, performance, and production-ready architecture.
+  I build end-to-end data curation pipelines for LLMs and foundation models, dataset acquisition, deduplication, contamination control, annotation QA, and governed exports that model teams can actually trust.
 </p>
 
 <p align="center">
@@ -13,12 +13,13 @@
 
 ## 🚀 About Me
 
-- 🔭 Currently building **backend-heavy production-ready systems**
-- 🌱 Learning **System Design, Redis, Microservices & Java Backend**
-- 🧠 Exploring **AI + Backend integrations**
-- 💬 Ask me about **Node.js, Backend Architecture, APIs, System Design**
-- 📫 Reach me at **akashsharma.se.ai@gmail.com**
-- ⚡ Fun fact: *I enjoy building real-world systems more than tutorial projects*
+- 🔭 Building **LLM training-data pipelines**: acquisition → cleaning → dedup → contamination detection → governance → export
+- 🧹 Deep into **exact / MinHash-LSH / FAISS semantic deduplication**, heuristic quality filtering, and corpus diversity analysis
+- 🌐 Working with **web/internet crawling, Common Crawl (WARC/WET), OCR extraction**, and multilingual (Indic) corpora
+- 🧠 Exploring **foundation-model training pipelines, fine-tuning, RAG, and multimodal/speech data**
+- 💬 Ask me about **dataset curation, data quality, deduplication, RAG, and reproducible data pipelines**
+- 📫 Reach me at **officialmailakashsharma@gmail.com**
+- ⚡ Fun fact: *I care more about the quality of the data than the size of the model*
 
 ---
 
@@ -37,34 +38,46 @@
 
 ## 🏆 Featured Projects
 
-### ✈️ B2B Travel Agent Platform
-- Role-based access control
-- Commission tracking engine
-- Background job processing
-- Scalable backend architecture
+### 🇮🇳 [Indic Multilingual Dataset Builder](https://github.com/theBrainly/Indic-Multilingual-Dataset-Builder) — LLM Data Curation Platform
+End-to-end curation (collect → clean → validate → enrich → govern → export) for multilingual training data.
+- Three-tier dedup: exact (hashing), near-duplicate (**MinHash/LSH**), semantic (**FAISS**)
+- Benchmark contamination & training-test leakage detection
+- Web/Common Crawl WARC + OCR acquisition, Indic normalization & language ID
+- Governed **JSONL / Parquet** exports with provenance, versioning & dataset cards
+- **Scales to 100 TB+** via distributed **Dask** over sharded Parquet
 
-### 🎵 Shazam-like Audio Recognition System
-- FFT-based audio fingerprinting
-- Optimized matching algorithm
-- MongoDB indexing for speed
+### 🔍 [LLM Training Data Quality Analyzer](https://github.com/theBrainly/LLM-Training-Data-Quality-Analyzer)
+Inspects training datasets for duplicates, PII leaks, toxicity, formatting errors, and low-signal records.
+- Multi-format ingestion (JSON, JSONL, CSV, Parquet) with schema validation
+- Scans **1M+ records per run**; structured JSON/Markdown reports
+- Interactive **FastAPI** dashboard; **40+** unit & property-based tests
 
-### 🔐 Reusable Authentication System
-- JWT + Google OAuth
-- Session-based auth
-- Modular backend architecture
-
-### ☁️ Cloud File Storage System
-- Secure upload & access
-- Scalable storage handling
-- Production-ready backend structure
+### 🛡️ [Defense Logistics Knowledge Intelligence Platform](https://github.com/theBrainly/navy-rag) — RAG & Code Retrieval
+Source-grounded RAG over operational documents, plus deterministic exact-code lookup.
+- Ingests **10K+** docs (PDF/HTML + **OCR**), indexed with vector embeddings (**Qdrant**)
+- Exact-code retrieval (e.g., NSN `7810-00-995-2055 → Football`) in **<1s**
+- **Docker Compose** stack with cloud and air-gapped (local embeddings) modes
 
 ---
 
 ## 🛠️ Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,redis,docker,aws,react,typescript,java,git,linux" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,mongodb,postgres,redis,docker,aws,git,linux" />
 </p>
+
+**Data & AI:** Pandas · NumPy · PySpark · Dask · Hugging Face Datasets · Apache Arrow/Parquet · FAISS · LangChain · RAG · Scrapy · BeautifulSoup
+
+---
+
+## 🧠 Focus Areas
+
+- Dataset Curation & Corpus Development
+- Exact / Semantic Deduplication (MinHash, LSH, FAISS)
+- Contamination & Training-Test Leakage Detection
+- Heuristic Filtering, Metadata Enrichment & Corpus Diversity
+- Annotation QA & Inter-Annotator Agreement (Cohen's / Fleiss' Kappa)
+- Data Provenance, Versioning & Reproducible Pipelines
 
 ---
 
@@ -91,32 +104,19 @@
   />
 </p>
 
-
----
-
-## 🧠 Backend Focus Areas
-
-- Scalable API Design  
-- Authentication & Authorization Systems  
-- Payment Integrations  
-- Distributed System Thinking  
-- Database Optimization  
-- Production-ready Architecture  
-
 ---
 
 ## 🎯 2026 Goals
 
-- Transition into **SDE-1 Backend Role**
-- Master **System Design**
-- Build **Microservices-based architecture projects**
-- Contribute to **Open Source**
+- Work on **frontier foundation-model data pipelines**
+- Go deeper on **large-scale, distributed data processing**
+- Contribute to **open data & open-source AI tooling**
 
 ---
 
-## 💭 Developer Philosophy
+## 💭 Philosophy
 
-> "I build backend systems that are scalable, secure, and production-ready."
+> "Great models start with great data. I build the curation that makes data trustworthy, traceable, and ready to train on."
 
 ---
 
