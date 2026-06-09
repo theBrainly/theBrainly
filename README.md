@@ -63,10 +63,14 @@ Source-grounded RAG over operational documents, plus deterministic exact-code lo
 ## 🛠️ Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,mongodb,postgres,redis,docker,aws,git,linux" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,nodejs,express,react,nextjs,typescript,tailwind,mongodb,postgres,redis,docker,aws,git,linux" />
 </p>
 
-**Data & AI:** Pandas · NumPy · PySpark · Dask · Hugging Face Datasets · Apache Arrow/Parquet · FAISS · LangChain · RAG · Scrapy · BeautifulSoup
+**Data & AI:** Pandas · NumPy · PySpark · Dask · Hugging Face Datasets · Apache Arrow/Parquet · FAISS · LangChain · RAG · Scrapy · BeautifulSoup · OCR
+
+**Backend (for AI products):** Python · FastAPI · Node.js · Express · REST APIs · JWT Auth · Qdrant · MongoDB · PostgreSQL · Redis · Docker
+
+**Frontend (for AI products):** React · Next.js · TypeScript · Tailwind CSS — building dashboards & UIs on top of AI/data pipelines
 
 ---
 
